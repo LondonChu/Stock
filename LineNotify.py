@@ -8,14 +8,16 @@ headers = {
 }
 # 設定要發送的訊息
 data = {
-    'message':'[華通] 上車!!'
+    'message':'[yy] xxxxx...',
+    'stickerPackageId':'6136',
+    'stickerId':'10551397'
 }
 data = requests.post(url, headers=headers, data=data)
 # 設定要發送的貼圖
 data = {
     'message':'貼圖',
-    'stickerPackageId':'6370',
-    'stickerId':'11088018',
+    'stickerPackageId':'6136',
+    'stickerId':'10551397',
 }
 data1 = {
     'message':'貼圖',
