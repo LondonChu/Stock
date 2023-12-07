@@ -8,7 +8,7 @@ headers = {
 }
 # 設定要發送的訊息
 data = {
-    'message':'阿 但是看不到你回的'#,
+    'message':'阿 但是看不到你回的',
     'stickerPackageId':'6136',
     'stickerId':'10551397'
 }
